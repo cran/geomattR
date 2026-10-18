@@ -1,0 +1,26 @@
+Package: geomattR
+Type: Package
+Title: Calculate Geometric Attributes of Spatial Polygons
+Version: 0.3.1
+Authors@R: 
+    person("Gabriel", "Ortega-Solís", , "g.ortega.solis@geomattr.org", role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0002-0516-5694"))
+Description: Calculate geometric attributes of spatial polygons including area, perimeter, compactness, elongation, orientation (bearing), fractal dimension, and various shape indices. The package relies heavily on 'terra' methods and vector data objects <https://github.com/rspatial/terra>.
+License: MIT + file LICENSE
+URL: https://github.com/gortegasolis/geomattR
+BugReports: https://github.com/gortegasolis/geomattR/issues
+Encoding: UTF-8
+Depends: R (>= 4.1)
+Imports: terra (>= 1.8.70), geosphere (>= 1.5.20), methods, parallel,
+        stats, cli, rlang
+Suggests: testthat (>= 3.2.3), sf, knitr (>= 1.50), rmarkdown (>= 2.30)
+Config/testthat/edition: 3
+VignetteBuilder: knitr
+Config/roxygen2/version: 8.1.0
+NeedsCompilation: no
+Packaged: 2026-10-08 12:52:47 UTC; gabriel
+Author: Gabriel Ortega-Solís [aut, cre, cph] (ORCID:
+    <https://orcid.org/0000-0002-0516-5694>)
+Maintainer: Gabriel Ortega-Solís <g.ortega.solis@geomattr.org>
+Repository: CRAN
+Date/Publication: 2026-10-18 16:30:08 UTC

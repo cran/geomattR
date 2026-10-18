@@ -1,0 +1,8 @@
+bibentry(
+  bibtype  = "Manual",
+  title    = "geomattR: Calculate Geometric Attributes of Spatial Polygons",
+  author   = person("Gabriel", "Ortega-Solís"),
+  year     = format(Sys.Date(), "%Y"),
+  note     = paste("R package version", meta$Version),
+  url      = "https://github.com/gortegasolis/geomattR"
+)
